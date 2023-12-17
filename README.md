@@ -45,7 +45,10 @@ TODO (in progress):
 - verify sysprep runs on final reboot to update SID's if not already done in cloning process
 - set some rules to pfsense can use user-supplied IP network info if different from 192.168.1.0/24
 - debug the OS detection rule to have it build cross-platform from Windows AND Linux
-- add an ELK instance running on Ubuntu 22.04 instead of 18.04 
+- add an ELK instance running on Ubuntu 22.04 instead of 18.04
+- remove OPT1 to WAN access in pfSense, killing internet access after provisioning is 100% complete
+- remove Ubuntu jumpbox after provisioning is 100% complete, since it was used purely for ansible compatibility
+- add option to change from GOAD to NHA network infrastructure, the work has been done already just needs some tweaking 
 
 ---
 ---
