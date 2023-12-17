@@ -15,9 +15,9 @@ Make sure you have python3 on your Windows machine, and install the **python-ter
 Download the following 4 ISOs and then upload them to your vSphere datastore (for now - working on automating this step)
 
 - Ubuntu : https://drive.proton.me/urls/DT2ZJT2DFG#Hrttx9VrjaC9
-- pfSense :
-- Windows 2016 :
-- Windows 2019 :
+- pfSense : https://drive.proton.me/urls/FA08F8WGTW#cv6IgxiWosxT
+- Windows 2016 : https://drive.proton.me/urls/7172RTE1X0#56N0qOH4RVT2
+- Windows 2019 : https://drive.proton.me/urls/CFCGGTEKFM#jZ2P1qafnI1R
 
 
 ---
