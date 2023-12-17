@@ -1,0 +1,4 @@
+Download packer binary to store here: https://releases.hashicorp.com/packer/1.10.0/packer_1.10.0_windows_amd64.zip
+
+Download the Terraform binary to store here: https://releases.hashicorp.com/terraform/1.6.6/terraform_1.6.6_windows_amd64.zip
+
