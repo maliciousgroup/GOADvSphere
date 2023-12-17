@@ -108,6 +108,7 @@ class GOADBuilder(object):
 if __name__ == '__main__':
     try:
         setup_goad_v2 = GOADBuilder("config.json")
+        setup_goad_v2.parse_configuration()
         setup_goad_v2.build_templates_from_iso()
         setup_goad_v2.build_vms_from_templates()
     except AssertionError as e:
