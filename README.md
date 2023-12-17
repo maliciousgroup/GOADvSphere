@@ -36,6 +36,8 @@ The build will first create some templates from the ISOs above, then it will use
 84:   "<wait>192.168.1.1<enter>",    (change to the gateway for that range)
 ```
 
+and also update the config.xml file within the ```/packer/pfsense/files/config.xml``` to reflect the new IP address. Just replace the 192.168.1.234 and 192.168.1.1 with whatever your network is.
+
 The GOADv2 deployment will be created on the OPT1 interface on network 10.20.30.0/24. There is also an optional variable if you want to set a Tailscale Preauth Key for automatic Tailscale intergreation of the GOAD network automatically. The only thing you do is supply your tailscale preauth key during setup.py, and once setup is complete, make sure to allow the subnet routes (10.20.30.0/24) in your Tailscale administration panel. This will allow anyone you provide a key to, to have access to your lab as well.
 
 ---
