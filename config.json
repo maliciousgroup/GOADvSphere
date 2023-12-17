@@ -1,0 +1,54 @@
+{
+  "vsphere_server": {
+    "description": "IP address of your vSphere server instance",
+    "value": ""
+  },
+  "vsphere_username": {
+    "description": "vSphere SSO username (i.e. administrator@vsphere.local)",
+    "value": ""
+  },
+  "vsphere_password": {
+    "description": "vSphere SSO password",
+    "value": ""
+  },
+  "vsphere_esxi_host": {
+    "description": "IP address of the ESXi host where vSphere is installed",
+    "value": ""
+  },
+  "vsphere_datacenter": {
+    "description": "Datacenter name on your vSphere server instance (i.e. Datacenter)",
+    "value": ""
+  },
+  "vsphere_datastore": {
+    "description": "Datastore name on your vSphere server instance (i.e. datastore1)",
+    "value": ""
+  },
+  "vsphere_iso_folder": {
+    "description": "Datastore folder name that contains ISOs (i.e. images)",
+    "value": ""
+  },
+  "http_file_host": {
+    "description": "The IP address of your provisioning machine [this machine] (i.e. 192.168.1.x)",
+    "value": ""
+  },
+  "pfsense_iso_filename": {
+    "description": "Filename for the pfSense ISO",
+    "value": ""
+  },
+  "ubuntu_iso_filename": {
+    "description": "Filename for the Ubuntu ISO",
+    "value": ""
+  },
+  "server2016_iso_filename": {
+    "description": "Filename for the Windows Server 2016 ISO",
+    "value": ""
+  },
+  "server2019_iso_filename": {
+    "description": "Filename for the Windows Server 2019 ISO",
+    "value": ""
+  },
+  "tailscale_preauth_key": {
+    "description": "[Optional] - Tailscale Pre-Authentication key",
+    "value": ""
+  }
+}
