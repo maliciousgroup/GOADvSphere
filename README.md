@@ -33,6 +33,9 @@ Once ISOs are uploaded to your datastore, install the infra by using the setup.p
 84:   "<wait>192.168.1.1<enter>",    (change to the gateway for that range)
 ```
 
+The build will first create some templates from the ISOs above, then it will use those templates to build the infrastructure. Lastly a ansible script will run from the Ubuntu jumpbox setting up all the configuration details for the GOADv2 lab.
+
+---
 ---
 
 
