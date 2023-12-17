@@ -40,6 +40,13 @@ and also update the config.xml file within the ```/packer/pfsense/files/config.x
 
 The GOADv2 deployment will be created on the OPT1 interface on network 10.20.30.0/24. There is also an optional variable if you want to set a Tailscale Preauth Key for automatic Tailscale intergreation of the GOAD network automatically. The only thing you do is supply your tailscale preauth key during setup.py, and once setup is complete, make sure to allow the subnet routes (10.20.30.0/24) in your Tailscale administration panel. This will allow anyone you provide a key to, to have access to your lab as well.
 
+TODO (in progress): 
+- set complex passwords for ansible user (generate with Terraform)
+- verify sysprep runs on final reboot to update SID's if not already done in cloning process
+- set some rules to pfsense can use user-supplied IP network info if different from 192.168.1.0/24
+- debug the OS detection rule to have it build cross-platform from Windows AND Linux
+- add an ELK instance running on Ubuntu 22.04 instead of 18.04 
+
 ---
 ---
 
