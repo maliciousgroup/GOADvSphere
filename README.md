@@ -25,6 +25,9 @@ Once ISOs are uploaded to your datastore, install the infra by using the setup.p
 
 ```python3 setup.py```
 
+The build will first create some templates from the ISOs above, then it will use those templates to build the infrastructure. Lastly a ansible script will run from the Ubuntu jumpbox setting up all the configuration details for the GOADv2 lab.
+
+***NOTE:***
 *IF* you are NOT using the IP range 192.168.1.0/24 for your vSphere 'VM Network' interface, then you will need to change two lines within the pfsense.pkr.hcl file. Lines 82 and 84 will need to be changed to whatever subnet you are using on the 'VM Network' interface. Currently I am using a static IP on the pfSense machine, but this isn't required and I will update this in a future release.
 
 ```
@@ -33,7 +36,6 @@ Once ISOs are uploaded to your datastore, install the infra by using the setup.p
 84:   "<wait>192.168.1.1<enter>",    (change to the gateway for that range)
 ```
 
-The build will first create some templates from the ISOs above, then it will use those templates to build the infrastructure. Lastly a ansible script will run from the Ubuntu jumpbox setting up all the configuration details for the GOADv2 lab.
 
 ---
 ---
