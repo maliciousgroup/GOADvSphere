@@ -22,6 +22,12 @@ The build will first create some templates from ISO, then it will use those temp
 
 This version of the build automatically downloads the installs the ISOs from our public repo at lab.malicious.group. The templates will be stored on the vSphere datastore and will be used to clone into the GOADv2 infrastructure.
 
+
+
+**NOTE:**
+
+This is a clone of the latest GOAD build (v2) from Orange Cyberdefense rebuilt for vSphere infrastructure. Their repo can be found here: https://github.com/Orange-Cyberdefense/GOAD
+
 ---
 
 ### Todo
