@@ -21,3 +21,11 @@ Setup the infrastructure by using the setup.py script.
 The build will first create some templates from ISO, then it will use those templates to build the infrastructure. Lastly a ansible script will run from the Ubuntu jumpbox setting up all the configuration details for the GOADv2 lab.
 
 This version of the build automatically downloads the installs the ISOs from our public repo at lab.malicious.group. The templates will be stored on the vSphere datastore and will be used to clone into the GOADv2 infrastructure.
+
+---
+
+### Todo
+
+- [ ] Build the ```destroy.py``` script to cleanly tear down infrastructure
+- [ ] Add logic to detect an available vmnic during vSphere vSwitch setup in ```build_templates/resources.tf``` file 
+- [ ] Add option for user to select 'GOAD', 'NHA', or a custom build template during setup 
