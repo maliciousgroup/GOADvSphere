@@ -17,7 +17,7 @@
   },
   "vsphere_datacenter": {
     "description": "Datacenter name on your vSphere server instance (i.e. Datacenter)",
-    "value": "
+    "value": ""
   },
   "vsphere_datastore": {
     "description": "Datastore name on your vSphere server instance (i.e. datastore1)",
