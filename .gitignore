@@ -1,5 +1,5 @@
 # Ignore Packer cache directory
-packer_cache/
+.*packer_cache/.*
 
 # Ignore dot files
 .*
