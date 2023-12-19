@@ -18,6 +18,6 @@ Setup the infrastructure by using the setup.py script.
 
 ```python3 setup.py```
 
-The build will first create some templates from the ISOs above, then it will use those templates to build the infrastructure. Lastly a ansible script will run from the Ubuntu jumpbox setting up all the configuration details for the GOADv2 lab.
+The build will first create some templates from ISO, then it will use those templates to build the infrastructure. Lastly a ansible script will run from the Ubuntu jumpbox setting up all the configuration details for the GOADv2 lab.
 
 This version of the build automatically downloads the installs the ISOs from our public repo at lab.malicious.group. The templates will be stored on the vSphere datastore and will be used to clone into the GOADv2 infrastructure.
