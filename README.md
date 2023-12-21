@@ -32,7 +32,7 @@ This is a clone of the latest GOAD build (v2) from Orange Cyberdefense rebuilt f
 
 ### Todo
 
-- [ ] Build the ```destroy.py``` script to cleanly tear down infrastructure
+- [x] Build the ```destroy.py``` script to cleanly tear down infrastructure
 - [ ] Add logic to detect an available vmnic during vSphere vSwitch setup in ```build_templates/resources.tf``` file 
 - [ ] Add option for user to select 'GOAD', 'NHA', or a custom build template during setup
 - [ ] Improve the current ansible scripts to fix some stability issues
