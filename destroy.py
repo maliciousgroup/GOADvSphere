@@ -62,7 +62,7 @@ class GOADDestroyer(object):
                       f"-var http_file_host={a['http_file_host']['value']} "\
                       f"-var tailscale_preauth_key={a['tailscale_preauth_key']['value']} " \
                       f"--auto-approve"
-        result = subprocess.run(destroy_vms, shell=True, check=True, stdout=subprocess.PIPE, text=True)
+        result = subprocess.run(destroy_vms, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         if result.returncode != 0:
             print(f"[x] Failed to destroy\n{result.stderr}")
             return False
